@@ -1,0 +1,80 @@
+{
+    "sd": {
+        "title": "Sekolah Dasar (SD)",
+        "description": "Materi matematika untuk kelas 1-6 SD",
+        "topics": [
+            {
+                "id": "bilangan",
+                "title": "Bilangan",
+                "lessons": [
+                    {
+                        "slug": "mengenal-bilangan",
+                        "title": "Mengenal Bilangan Cacah"
+                    },
+                    {
+                        "slug": "penjumlahan-pengurangan",
+                        "title": "Penjumlahan dan Pengurangan"
+                    },
+                    {
+                        "slug": "perkalian-pembagian",
+                        "title": "Perkalian dan Pembagian"
+                    }
+                ]
+            },
+            {
+                "id": "geometri",
+                "title": "Geometri",
+                "lessons": [
+                    {
+                        "slug": "bangun-datar",
+                        "title": "Mengenal Bangun Datar"
+                    },
+                    {
+                        "slug": "bangun-ruang",
+                        "title": "Mengenal Bangun Ruang"
+                    }
+                ]
+            }
+        ]
+    },
+    "smp": {
+        "title": "Sekolah Menengah Pertama (SMP)",
+        "description": "Materi matematika untuk kelas 7-9 SMP",
+        "topics": [
+            {
+                "id": "aljabar",
+                "title": "Aljabar",
+                "lessons": [
+                    {
+                        "slug": "bentuk-aljabar",
+                        "title": "Mengenal Bentuk Aljabar"
+                    },
+                    {
+                        "slug": "persamaan-linear",
+                        "title": "Persamaan Linear Satu Variabel"
+                    }
+                ]
+            }
+        ]
+    },
+    "sma": {
+        "title": "Sekolah Menengah Atas (SMA)",
+        "description": "Materi matematika untuk kelas 10-12 SMA",
+        "topics": [
+            {
+                "id": "trigonometri",
+                "title": "Trigonometri",
+                "lessons": [
+                    {
+                        "slug": "rasio-trigonometri",
+                        "title": "Rasio Trigonometri"
+                    },
+                    {
+                        "slug": "aturan-sinus-cosinus",
+                        "title": "Aturan Sinus dan Cosinus"
+                    }
+                ]
+            }
+        ]
+    }
+}
