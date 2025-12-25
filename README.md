@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MathBelajar ID
 
-## Getting Started
+MathBelajar ID is an online mathematics learning platform designed for Indonesian students from elementary (SD) to high school (SMA). It provides structured study materials, practice questions, and a mobile-first experience to support independent learning aligned with the Merdeka Curriculum.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   **Structured Materials:** organized by level (SD, SMP, SMA) and grade.
+-   **Practice Questions:** dedicated exercises with explanations.
+-   **Mobile-First Design:** optimized for fast loading and easy access on all devices.
+-   **Modern UI:** built with rich aesthetics using Tailwind CSS and Framer Motion.
+-   **Static Content:** content served via MDX for performance and reliability.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+-   **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+-   **Icons:** [Lucide React](https://lucide.dev/)
+-   **Animations:** [Framer Motion](https://www.framer.com/motion/)
+-   **Math Rendering:** [KaTeX](https://katex.org/) & [MDX](https://mdxjs.com/)
+-   **PWA:** Support via `@ducanh2912/next-pwa`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+Ensure you have **Node.js** installed on your machine.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/PanPanFR/website-mtk.git
+    cd website-mtk
+    ```
 
-## Deploy on Vercel
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📜 Scripts
+
+-   `npm run dev`: Runs the development server.
+-   `npm run build`: Builds the application for production.
+-   `npm run start`: Starts the production server.
+-   `npm run lint`: Runs ESLint to check for code quality issues.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the [MIT](LICENSE).
